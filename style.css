@@ -1,0 +1,102 @@
+
+*{
+box-sizing: border-box;
+}
+
+body  {
+  background-color: Moccasin;
+  
+  font-family:courier, "Times", serif;
+  font-size:130%;
+}
+
+#header {
+  text-align:center;
+  background-color:darkgray;
+  color:moccasin;
+  font-size:200%;
+  padding:10px 0 10px 0;
+  margin:0;
+
+}
+
+#nav {
+  display: grid;
+  
+  grid-template: 50px / 1fr 25% 25% 24%;
+  background-color:darkgray;
+  height: 50px;
+  text-align: center;
+  border-right: 5px solid darkgray;
+  border-left: 5px solid darkgray;
+}
+
+#UN {
+  display: grid;
+  grid-template: 100%;
+  border-right:5px solid darkgray;
+  border-left:5px solid darkgray;
+}
+
+#M {
+  display:grid;
+  justify-content:start;
+  border:5px solid moccasin;
+  outline: 5px solid moccasin;
+  margin: 5px 5px 5px 5px;
+  padding: 2px 0 0 7px;
+  
+  font-weight: bold;
+  color: moccasin;
+  font-size: 120%;
+  background-color: darkgray;
+}
+
+
+#C {
+  border:5px solid moccasin;
+  padding: 5px 0 5px 0;
+  margin: 5px 5px 5px 5px;
+  height: 40px;
+  color:moccasin;
+  
+  
+  background-color: darkgray;
+  
+}
+
+
+
+#A {
+  border:5px solid moccasin;
+  padding: 5px 0 5px 0;
+  margin: 5px 5px 5px 5px;
+  height: 40px;
+  color:moccasin;
+  
+  
+  background-color: darkgray;
+  
+}
+
+
+
+#footer {
+  background-color:darkgray;
+  color:moccasin;
+  text-align:center;
+}
+
+
+a {
+text-decoration:none;
+}
+
+A:hover {
+  
+  font-size:120%;
+  line-height:20px;
+  text-decoration:none;
+  background-color: orange;
+
+}
